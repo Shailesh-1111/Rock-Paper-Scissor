@@ -1,0 +1,120 @@
+body{
+    background-color: #6b3400;
+    text-align: center;
+    font-family: "Bungee";
+    margin:0;
+}
+
+#mainline{
+    color: rgb(17, 1, 43);
+    background-color:#1c4d00;
+    margin-top:0%;
+}
+
+.score-board{
+    width: 40%;
+    border: 4px solid rgb(17, 1, 43);
+    margin:1% auto;
+    position:relative;
+}
+
+#user-label{
+    color: #1c4d00;
+    background-color: red;
+    width:33%;
+    position:absolute;
+}
+
+#computer-label{
+    color: #1c4d00;
+    background-color: red;
+    width:33%;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
+#user-choice{
+    margin-right: 50px;
+    margin-left: auto;
+    width: 200px;
+}
+
+#user-box{
+    border: 7px solid rgb(17, 1, 43);
+    border-radius: 20px;
+ 
+}
+
+#computer-choice{
+    margin-right: auto;
+    margin-left: 50px;
+    width: 200px;
+    height:200px;
+}
+
+#computer-box{
+    border: 7px solid rgb(17, 1, 43);
+    border-radius: 20px;
+}
+
+#play{
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.img.rock{
+    width: 70px;
+}
+
+.img.paper{
+    width:115px;
+}
+
+.img.scissor{
+    width:110px;
+}
+
+.comp-img{
+    width:70%;
+}
+
+.img:hover{
+    transform: scale(1.2);
+}
+
+.restart{
+    margin:3% 2% 4% auto;
+}
+
+.nxt-round{
+   margin:3% auto 4% 2%;
+}
+
+
+.btn {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    color: #110104;
+    background-color: #6b3400;
+    font-family: "Bungee";
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #11012b 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #1c4d00;
+    text-decoration: none;
+  }
+
+  footer{
+      background-color: #1c4d00;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 1% 0; 
+  }
+
+

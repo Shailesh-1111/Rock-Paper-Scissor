@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+    <html lang="en" dir="ltr"></html>
+
+
+    <head>
+        <meta charset="utf-8">
+        <title>Rock Paper Scissor</title>
+
+        <!-- font -->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+
+        <div>
+            <h1 id="mainline"> ROCK  ||  PAPER  ||  SCISSOR</h1>
+        </div>
+
+
+        <div class="score-board">
+            <div id="user-label">
+                <h2>USER</h2>
+            </div>
+
+            <h2><span id="user-score">0</span> : <span id="computer-score">0</span></h2>
+
+            <div id="computer-label">
+                <h2>COMP</h2>
+            </div>
+        </div>
+
+
+        <div id="result">
+            <h2 id="resu">CLICK YOUR CHOICE TO START</h2>
+        </div>
+
+        <table id="play">
+
+        <tr>
+        
+        <td >
+            <table id="user-choice">
+                <tr>
+                    <td id="user-box">
+                        <img class="img  rock" onclick="disappear(0)" src="images/rock.png" alt="rock-img">
+                        <img class="img  paper" onclick="disappear(1)" src="images/paper.png" alt="paper-img">
+                        <img class="img  scissor" onclick="disappear(2)" src="images/scissor.png" alt="scissor-img">
+                    </td>    
+                </tr>
+            </table>
+        </td>
+
+
+        <td >
+            <table id="computer-choice">
+                <tr>
+                    <td id="computer-box">
+                        <img class="comp-img "  src="images/comp-img.gif" alt="comp-img">
+                    </td>    
+                </tr>
+            </table>
+        </td>
+
+        </tr>
+
+        </table>
+
+
+        <div class="button">
+            <input class="btn restart" type="button" value="RESTART" onClick="window.location.reload();">
+            <input class="btn nxt-round" type="button" value="NEXT-ROUND">
+        </div>
+
+
+        <!-- javascript -->
+        <script src="index.js" charset="utf-8"></script>
+    </body>
+
+
+    <footer>
+        <p id="copyright">©️ 2022  Game by Shailesh</p>
+    </footer>
